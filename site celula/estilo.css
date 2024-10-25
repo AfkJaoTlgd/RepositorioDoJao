@@ -1,0 +1,200 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #1b5e20;
+    font-size: 24px;
+    line-height: 1.8;
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.9);
+    padding: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+article {
+    padding: 0 30px;
+    margin-bottom: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+a {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 15px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+a[href*="cloroplasto"] {
+    background-color: rgba(102, 187, 106, 0.8);
+}
+
+a[href*="vacuolo"] {
+    background-color: rgba(66, 165, 245, 0.8);
+}
+
+a[href*="glioxissoma"] {
+    background-color: rgba(255, 167, 38, 0.8);
+}
+
+a[href*="parede_cel"] {
+    background-color: rgba(141, 110, 99, 0.8);
+}
+
+a[href*="nucleo"] {
+    background-color: rgba(253, 216, 53, 0.8);
+}
+
+a[href*="complexo_golgi"] {
+    background-color: rgba(255, 112, 67, 0.8);
+}
+
+a[href*="mitocondria"] {
+    background-color: rgba(229, 57, 53, 0.8);
+}
+
+a[href*="citoplasma"] {
+    background-color: rgba(171, 71, 188, 0.8);
+}
+
+a[href*="reticulo_endo"] {
+    background-color: rgba(63, 81, 181, 0.8);
+}
+
+a[href*="ribossomos"] {
+    background-color: rgba(158, 158, 158, 0.8);
+}
+
+a[href*="index"] {
+    color: black;
+}
+
+h1, h2, h3 {
+    color: #2e7d32;
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+img {
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 4px solid #4db6ac;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+#rodape {
+    background-color: rgba(76, 175, 80, 0.9);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 50px auto 0;
+}
+
+#rodape p {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 22px;
+    }
+
+    header {
+        font-size: 30px;
+        padding: 30px;
+    }
+
+    article {
+        padding: 20px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 20px;
+    }
+
+    header {
+        font-size: 26px;
+        padding: 20px;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+}
