@@ -150,8 +150,10 @@ img:hover {
     color: #ffffff;
     text-align: center;
     padding: 20px;
-    max-width: 1200px;
-    margin: 50px auto 0;
+    width: 100%; /* O rodapé vai ocupar toda a largura da tela */
+    max-width: 100%; /* Mas não vai ficar menor em telas grandes */
+    box-sizing: border-box; /* Inclui padding na largura total */
+    margin-top: 50px;
 }
 
 #rodape p {
